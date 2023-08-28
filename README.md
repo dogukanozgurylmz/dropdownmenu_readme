@@ -100,7 +100,7 @@ CustomDropdownController genderDropdownController = CustomDropdownController();
 ```dart
 TextField(
   key: globalKey,
-  controller: watch.genderController,
+  controller: genderController,
   onTap: () {
     toggleDropdownGender();
     findDropdownData(globalKey);
